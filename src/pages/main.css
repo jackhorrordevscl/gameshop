@@ -28,7 +28,7 @@ main {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: var(--bgColor);
   box-shadow:
-    -5px -5px 15px rgba(255, 255, 255, 0.15),
+    -5px -5px 15px rgba(255, 255, 255, 0.1),
     5px 5px 15px rgba(0, 0, 0, 0.35);
   transition: 1s;
 }
@@ -37,4 +37,28 @@ main {
   position: relative;
   width: 93%;
   transition: 1s;
+}
+
+section {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 100vh;
+  padding: 0 30px 0 30px;
+  bottom: 0;
+  opacity: 0;
+  transition: ease-in-out 1s;
+  transform-origin: bottom;
+  z-index: 1000;
+}
+
+section::-webkit-scrollbar {
+  display: none;
+}
+
+section.active {
+  top: 100px;
+  height: auto;
+  overflow-y: visible;
+  opacity: 1;
 }

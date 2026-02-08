@@ -6,11 +6,11 @@ function Header({ toggleActive }) {
   return (
     <header>
       <a href="#" className="menu" onClick={toggleActive}>
-        <i class="bi bi-sliders"></i>
+        <i className="bi bi-sliders"></i>
       </a>
       <div className="userItems">
         <a href="#" className="icon">
-          <i class="bi bi-heart-fill"></i>
+          <i className="bi bi-heart-fill"></i>
           <span className="like">0</span>
         </a>
         <a href="#" className="icon">
@@ -22,8 +22,8 @@ function Header({ toggleActive }) {
             <img src={userImg} alt="User image" />
           </a>
           <div className="user">
-            <span>User Name</span>
-            <a href="#">View Profile</a>
+            <span>JackHorror</span>
+            <a href="#">Ver Perfil</a>
           </div>
         </div>
       </div>

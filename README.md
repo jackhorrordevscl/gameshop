@@ -24,6 +24,9 @@ La configuración de herramientas base proviene de **Create React App**.
 Desde el directorio del proyecto, puedes ejecutar:
 
 npm i bootstrap bootstrap-icons swiper
+
+Para Iniciar el proyecto, desde el directorio del proyecto ejecutat en consola
+
 npm start
 
 # 📁 Estructura Base del Proyecto

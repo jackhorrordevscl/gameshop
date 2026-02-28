@@ -1,4 +1,4 @@
-# 🕹️ GameShop – Frontend React JS
+# 🕹️ GameShop – Frontend React JS ...
 
 Frontend de la aplicación **GameShop**, desarrollado con **React JS** usando Create React App.
 
